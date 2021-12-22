@@ -32,7 +32,7 @@ function Header({ submitted, setSubmitted, logged, setLogged }) {
       </div>
 
       <div className="register-btn">
-        <ul>
+        <ul id={showNav ? "hiddenbtn" : null}>
           <li>
             {!state.logged && (
               <Link to="/login">

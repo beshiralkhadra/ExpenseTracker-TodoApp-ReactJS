@@ -38,6 +38,11 @@
   list-style-type: none;
   margin: 0.7em 2em;
 }
+.register-btn ul #hiddenbtn {
+  display: flex;
+  list-style-type: none;
+  margin: 0.7em 2em;
+}
 .register-btn ul li {
   padding: 0.3em;
 }
@@ -83,11 +88,10 @@ nav ul li a:hover {
   .navbar {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
   }
 
   .logo-nav img {
-    margin: 0;
+    margin: 1em;
   }
 }
 
@@ -130,7 +134,10 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
   }
-  .register-btn {
+  .register-btn ul {
     display: none;
+  }
+  .register-btn #hiddenbtn {
+    display: flex;
   }
 }

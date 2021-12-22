@@ -1,5 +1,4 @@
 .registration {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +7,7 @@
 
 .registration-form-container {
   background-color: white;
+  margin: 3em 0.5em;
   padding: 3em;
   border-radius: 20px;
   display: flex;
@@ -79,4 +79,9 @@ label {
   transform: scale(1.1);
   transition: 0.3s;
   outline: none;
+}
+@media screen and (max-width: 1024px) {
+  .registration {
+    height: 100vh;
+  }
 }
