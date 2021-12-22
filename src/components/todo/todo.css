@@ -1,0 +1,39 @@
+.input-todo input {
+  border-radius: 10px;
+  padding: 1em 3em;
+  margin: auto 1em;
+}
+.input-todo button {
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.todo-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 10px 30px;
+  background-color: #ffa800;
+  margin: 1em;
+}
+.todo-list button {
+  border-radius: 10px;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+.fa-trash-can {
+  color: red;
+  font-size: 1rem;
+}
+@media screen and (max-width: 420px) {
+  .input-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-todo input {
+    margin: 1em auto;
+  }
+}

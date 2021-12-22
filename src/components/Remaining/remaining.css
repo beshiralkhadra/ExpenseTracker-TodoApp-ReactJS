@@ -1,0 +1,7 @@
+.rows-remaining {
+  background-color: #ffa800;
+  border: 1px solid black;
+  border-radius: 10px 30px;
+  padding: 1em 5em;
+  margin: 1em auto;
+}

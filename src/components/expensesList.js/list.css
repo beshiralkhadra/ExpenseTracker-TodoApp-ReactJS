@@ -1,0 +1,19 @@
+.listing-expenses {
+  display: flex;
+  background-color: #5a3908;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 10px 30px;
+  margin: 1em auto;
+  padding: 1em 5em;
+}
+.listing-expenses button {
+  cursor: pointer;
+  border: none;
+  padding: 0.3em;
+}
+.listing-expenses .fa-trash-alt {
+  color: red;
+  font-size: 1rem;
+}
